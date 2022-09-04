@@ -16,7 +16,7 @@ interface CreateResponse {
 
 @Injectable({providedIn: 'root'})
 export class TasksService {
-  static url = 'https://test-10b77-default-rtdb.europe-west1.firebasedatabase.app/'
+  static url = 'https://test2-cc63a-default-rtdb.firebaseio.com/'
   
 
   constructor(private http: HttpClient) {
